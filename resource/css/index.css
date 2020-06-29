@@ -72,4 +72,22 @@ input[type=number] {
 #hot {
     transform: rotate(-40deg);
 }
+
+.meals-per-week label{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.fave-fruit label {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;;
+}
+
+.budget-section img {
+    width: 2rem;
+    height: auto;
+}
 /* Main ends here */
