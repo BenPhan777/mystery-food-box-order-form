@@ -16,26 +16,26 @@
 
         <main>
             <form>
-                <section class="like-veg-and-fruit">
-                    <span>Do you like fruits and vegetables?</span><br><br>
-                    <label for="yes"><input type="radio" id="yes" name="opion-on-veg-and-fruit" value="yes">Yes</label>
-                    <label for="no"><input type="radio" id="no" name="opion-on-veg-and-fruit" value="no">No</label>
-                    <label for="maybe"><input type="radio" id="maybe" name="opion-on-veg-and-fruit" value="maybe">Maybe</label>
+                <section class="budget-section">
+                    <span>What is your current budget?</span><br><br>
+                    <label for="low"><img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593468709/Mistery%20Vegetable/one-dollar_yoletd.png" alt="low-budget"><input type="radio" id="low" name="budget-option" value="low"></label>
+                    <label for="medium"><img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593468713/Mistery%20Vegetable/dollar-stack_s3e18k.png" alt="low-budget" id="stack"><input type="radio" id="medium" name="budget-option" value="medium"></label>
+                    <label for="high"><img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593468674/Mistery%20Vegetable/pile-of-money_pmz3ph.png" alt="low-budget" id="pile"><input type="radio" id="high" name="budget-option" value="high"></label>
                 </section>
                 <hr>
-                <section class="num-of-people">
+                <section class="num-of-people-section">
                     <span>Number of people:</span><br><br>
                     <input type="number" name="people" min="0" max="10" value="0">
                 </section>
                 <hr>
-                <section class="spice-level">
+                <section class="spice-level-section">
                     <span>What is your preferred spice level?</span><br><br>
                     <img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593456960/Mistery%20Vegetable/chili-png_bbgyda.png" alt="not too spicy">
                     <input type="range" min="0" max="4" value="2" name="spice">
                     <img id="hot" src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593457215/Mistery%20Vegetable/hot-chili_ok6jlb.png" alt="very spicy">
                 </section>
                 <hr>
-                <section class="meals-per-week">
+                <section class="weekly-meal-section">
                     <label for="meal-p-week">Meals per week:</label>
                     <select name="meal-per-each-week" id="meal-p-week">
                         <option value="2">Two</option>
@@ -44,29 +44,32 @@
                     </select>
                 </section>
                 <hr>
-                <section class="fave-fruit">
-                    <label for="fruit">What is your favorite fruit?</label><br>
+                <section class="fruit-veg-section">
+                    <label for="fruit">What is your most favorite fruit or vegetable?</label><br>
                     <input list="fruit-selection" name="favorite-fruit" id="fruit">
                     <datalist id="fruit-selection">
                         <option value="Pineaple"></option>
-                        <option value="Pear"></option>
-                        <option value="Banana"></option>
+                        <option value="Onion"></option>
+                        <option value="Sweet potato"></option>
                         <option value="Kiwi"></option>
-                        <option value="Apple"></option>
+                        <option value="Broccoli"></option>
                         <option value="Mangos"></option>
                     </datalist>
                 </section>
                 <hr>
-                <section class="budget-section">
-                    <span>What is your budget like?</span><br>
-                    <label for="low"><img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593468709/Mistery%20Vegetable/one-dollar_yoletd.png" alt="low-budget"></label>
-                    <input type="checkbox" name="budget-option" value="low" id="low">
-                    <label for="medium"><img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593468713/Mistery%20Vegetable/dollar-stack_s3e18k.png" alt="low-budget"></label>
-                    <input type="checkbox" name="budget-option" value="medium" id="medium">
-                    <label for="high"><img src="https://res.cloudinary.com/doaazgsrk/image/upload/v1593468674/Mistery%20Vegetable/pile-of-money_pmz3ph.png" alt="low-budget"></label>
-                    <input type="checkbox" name="budget-option" value="high" id="high">
+                <section class="flavor-section">
+                    <span>Which flavor(s) do you prefer?</span><br>
+                    <label for="sweet"><input type="checkbox" name="flavor-preference" value="sweet" id="sweet">Sweet</label>
+                    <label for="sour"><input type="checkbox" name="flavor-preference" value="sour" id="sour">Sour</label>
+                    <label for="salty"><input type="checkbox" name="flavor-preference" value="salty" id="salty">Salty</label>
+                    <label for="bitter"><input type="checkbox" name="flavor-preference" value="bitter" id="bitter">Bitter</label>
+                    <label for="umami"><input type="checkbox" name="flavor-preference" value="umami" id="umami">Umami</label>
                 </section>
                 <hr>
+                <section class="allergy-section">
+                    <label for="allergy-info">Any allergy? Please let us know below!</label><br>
+                    <textarea id="allergy-info" name="allergy" rows="4" cols="60"></textarea>
+                </section>
             </form>
         </main>
     </body>

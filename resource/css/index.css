@@ -55,16 +55,31 @@ main hr {
     border-top: 2px solid goldenrod;
 }
 
-.like-veg-and-fruit label {
+.budget-section label {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+
+.budget-section img {
+    width: 2rem;
+    height: auto;
+}
+
+#stack {
+    width: 2.5rem;
+    height: auto;
+}
+
+#pile{
+    width: 3rem;
+    height: auto;
 }
 
 input[type=number] {
     width: 2rem;
 }
 
-.spice-level img {
+.spice-level-section img {
     width: 2rem;
     height: auto;
 }
@@ -73,21 +88,32 @@ input[type=number] {
     transform: rotate(-40deg);
 }
 
-.meals-per-week label{
+.weekly-meal-section label{
     display: inline-block;
     font-size: 1.5rem;
     margin-top: 1.25rem;
 }
 
-.fave-fruit label {
+.fruit-veg-section label {
     display: inline-block;
     font-size: 1.5rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;;
 }
 
-.budget-section img {
-    width: 2rem;
-    height: auto;
+.flavor-section span {
+    margin-bottom: 1.5rem;
+}
+
+.flavor-section label {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.allergy-section label {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;;
 }
 /* Main ends here */
